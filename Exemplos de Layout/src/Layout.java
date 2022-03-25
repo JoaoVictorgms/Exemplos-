@@ -20,7 +20,7 @@ public class Layout extends JFrame {
 		   frame.add(BorderLayout.SOUTH, new JButton("SOUTH"));
 		   frame.add(BorderLayout.EAST, new JButton("EAST"));
 		   frame.add(BorderLayout.WEST, new JButton("WEST"));
-		   
+		    
 		   
 }
 	   public static void main(String[] args) {
