@@ -18,6 +18,6 @@ public class Exemplo extends JFrame{
 		   frame.add(new JButton("Campo 4"));
 }
 public static void main(String[] args) {
-	 new Exemplo();
+	 new Exemplo(); 
 }
 }
