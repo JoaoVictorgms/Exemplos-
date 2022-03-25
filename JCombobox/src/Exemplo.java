@@ -1,9 +1,14 @@
+import java.awt.Component;
+
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
+import javax.swing.JPanel;
 import javax.swing.JRadioButton;
+import javax.swing.JTextField;
 
 ;
 
@@ -31,6 +36,12 @@ public class Exemplo extends JFrame {
 			  JCheckBox a = new JCheckBox();
 			  a.setText("Aprovado");
 			  menu.add(a);
+			  
+			  JPanel p = new JPanel();
+			  p.add(new JLabel("Digite seu nome:"));
+			  p.add(new JTextField(10));
+			  menu.add(p);
+			  
 			   
 			   
 }
